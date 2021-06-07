@@ -1,18 +1,19 @@
 <template>
-  <Navbar />
+  <Title msg="We are going to analyze your data."/>
   <img alt="Vue logo" src="./assets/logo02.png">
-  <HelloWorld msg="We are going to analyze your data."/>
+  <hr>
+  <Processes/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Navbar from './components/Navbar.vue'
+import Title from './components/Title.vue'
+import Processes from './components/Processes.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Navbar
+    Title, Processes
   }
 }
 </script>
