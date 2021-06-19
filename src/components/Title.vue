@@ -1,11 +1,11 @@
 <template>
-    <h4>{{msg}}</h4>
+    <h2>{{msg}}</h2>
  </template>
 
 <script>
 export default {
     name: 'Title',
-    // Con esto podemos capturar el valor enviado.
+    //You use 'prop' to capture the parameter sent by the component.
     props: {
         msg: String
     }
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped>
-    h3 {
+    h2 {
         color:steelblue;
     }
 </style>

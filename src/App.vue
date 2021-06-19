@@ -1,19 +1,17 @@
 <template>
-  <Title msg="We are going to analyze your data."/>
-  <img alt="Vue logo" src="./assets/logo02.png">
-  <hr>
-  <Processes/>
-
+  <img alt="Vue logo" src="./assets/logo.png">
+  <Title msg="My dynamic bank 2.0"/>
+  <Account />
 </template>
 
 <script>
 import Title from './components/Title.vue'
-import Processes from './components/Processes.vue'
+import Account from './components/Account.vue'
 
 export default {
   name: 'App',
   components: {
-    Title, Processes
+    Title, Account
   }
 }
 </script>
